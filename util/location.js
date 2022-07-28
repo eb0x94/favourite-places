@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "AIzaSyBK5KNv74DHZQhLKOc6DWCzPfeTCt_Pfy8"; //INSERT YOUR API KEY
+const GOOGLE_API_KEY = ""; //INSERT YOUR API KEY
 
 export let getMapPreview = (lat, lng) => {
     const imagePreviewURL = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=14&size=400x200&maptype=roadmap
